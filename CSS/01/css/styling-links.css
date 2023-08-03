@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  cursor: pointer;
+}
+
+a:visited {
+  color: blue;
+}
+
+a:hover,
+a:focus {
+  color: black;
+}
+
+a:active {
+  color: #fff;
+  background-color: #000;
+}

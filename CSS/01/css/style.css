@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-size: 3rem;
+}
+
+body {
+  min-height: 100vh;
+}
+
+html {
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1,
+h2 {
+  color: cadetblue;
+  font-size: 1.5rem;
+  width: 50%;
+  margin: 1.5em;
+  padding: 1.5em;
+  border: 10px double red;
+  outline: 5px solid yellow;
+  outline-offset: -20px;
+}
+
+p {
+  font-size: 2rem;
+  color: #191970;
+  line-height: 1.5;
+  /* khoảng cách các chữ 
+      letter-spacing: 10em;
+  */
+  /* khoảng cách các từ
+  word-spacing: 10em; */
+  /* can le 2 ben */
+  text-align: justify;
+  /* in nghieng */
+  font-style: italic;
+  /*  */
+  /* text-transform: lowercase; */
+  /* thut dau dong
+  text-indent: 1em; */
+}
+
+.highlight {
+  color: #fff;
+  background-color: black;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  margin: auto;
+  margin-bottom: 10px;
+  border: 2px solid #000;
+  outline: 2px solid red;
+  outline-offset: -10px;
+}

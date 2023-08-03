@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 2rem;
+  line-height: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.block {
+  width: 30vw;
+  height: 30vw;
+  background-color: #000;
+  color: #fff;
+  line-height: 30vw;
+  text-align: center;
+}
+
+.left {
+  float: left;
+  margin-right: 1rem;
+}
+
+.right {
+  float: right;
+  margin-left: 2rem;
+}
+
+.clear {
+  clear: both;
+}
+
+section {
+  background-color: antiquewhite;
+  border: 1px solid black;
+  padding: 10px 0 10px 10px;
+  display: flow-root;
+}
